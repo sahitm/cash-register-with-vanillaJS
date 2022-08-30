@@ -19,11 +19,11 @@ td {
   }
 
 label,input{
-font-size: 1.5rem;
 margin-bottom: 1rem;
 }
 
 input{
+	height: 1.5rem;
     background-color: rgb(131, 224, 131);
 }
 
@@ -52,4 +52,21 @@ input{
 	top:1px;
 }
 
-        
+#message{
+	margin: 1rem;
+	color: red;
+}      
+
+.social-links{
+	display: flex;
+	justify-content: space-between;
+	width: 40vw;
+	margin: 2rem auto;
+
+}
+
+li{
+	list-style: none;
+}
+
+a { color: inherit; } 
