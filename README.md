@@ -5,7 +5,7 @@ A CASH REGISTER MANAGER using HTML, CSS & VanillaJS
 
 ## Demo
 
-[Live view](https://cash-register-with-vanillaJS.sahitm1.repl.co) of the project.
+[Live view](https://cash-register-with-vanillajs.netlify.app/) of the project.
 
 
 

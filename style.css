@@ -57,16 +57,79 @@ input{
 	color: red;
 }      
 
-.social-links{
-	display: flex;
-	justify-content: space-between;
-	width: 40vw;
-	margin: 2rem auto;
-
-}
-
-li{
+/**links **/
+.link {
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+  }
+  
+  .link-primary {
+	background-color: green;
+	border-radius: 0.5rem;
+	color: white;
+  }
+  
+  .link-secondary {
+	color: green;
+	border-radius: 0.5rem;
+	border: 1px solid green;
+  }
+  /**lists **/
+  .list-non-bullet {
 	list-style: none;
-}
-
-a { color: inherit; } 
+  }
+  
+  .list-item-inline {
+	display: inline;
+	padding: 0rem 0.5rem;
+  }
+  
+  /**nav **/
+  
+  .navigation {
+	background-color: green;
+	color: white;
+	padding: 1rem;
+	border-bottom-left-radius: 1rem;
+  }
+  
+  .navigation .nav-brand {
+	font-size: 1.5rem;
+  }
+  
+  .navigation .nav-pills {
+	text-align: right;
+  }
+  
+  .navigation .link {
+	color: white;
+  }
+  
+  .navigation .link-active {
+	font-size: 1.5rem;
+  }
+  
+  /* footer */
+  
+  .footer {
+	  background-color: green;
+	  padding: 2rem 1rem;
+	  text-align: center;
+	  color: white;
+	  border-top-right-radius: 1rem;
+	  width: 100vw;
+	  margin-top: 10vh;
+	}
+	
+	.footer .link {
+	  color: white;
+	}
+	
+	.footer .footer-header {
+	  font-weight: bold;
+	  font-size: large;
+	}
+	
+	.footer ul {
+	  padding-inline-start: 0px;
+	}
